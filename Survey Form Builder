@@ -1,0 +1,112 @@
+<!doctype html>
+<html class="no-js">
+<head>
+  <meta charset="utf-8">
+  <title>UPSA SURVEY PAGE</title>
+  
+  <link rel="stylesheet" type="text/css" href="css/home.css">
+</head>
+<body ng-app="formBuilder">
+
+<div class="login-page">
+  <div class="form">
+    <form class="register-form">
+      <input type="text" placeholder="name"/>
+      <input type="password" placeholder="password"/>
+      <input type="text" placeholder="email address"/>
+      <button>create</button>
+      <p class="message">Already registered? <a href="#">Sign In</a></p>
+    </form>
+    <form class="login-form">
+      <input type="text" placeholder="username"/>
+      <input type="password" placeholder="password"/>
+      <button>login</button>
+      <p class="message">Not registered? <a href="#">Create an account</a></p>
+    </form>
+  </div>
+</div>
+
+
+<link rel="stylesheet" type="text/javascript" href="src/component/home.js">
+
+<!-- BROWSE HAPPY BEGINS HERE -->
+<!-- <style>
+  .browsehappy {
+    display:block;
+    width:100%;
+    height:100px;
+    background-color:#f2dede;
+    margin: 0 0 10px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 22px;
+    line-height: 1.4;
+    color: #333;
+    padding-top: 15px;
+    vertical-align:middle;
+  }
+  .browsehappy span {
+    vertical-align:middle;
+    margin:20px 20px 20px 20px;
+    background:url("https://cdn.rawgit.com/alrra/browser-logos/master/internet-explorer/internet-explorer_64x64.png") no-repeat;
+    height:64px;
+    width:64px;
+    display:inline-block;
+  }
+
+  .formbuilder {
+    height: 600px;
+  }
+
+  .formcomponents {
+    width: 30%;
+  }
+
+  .formarea {
+    width: 70%;
+  }
+
+  .component-settings .nav-link {
+    font-size: 0.6em;
+  }
+
+  .jsonviewer {
+    max-height: 600px;
+    overflow: scroll;
+  }
+
+  .form-type-select {
+    display: inline-block;
+    width: 100px;
+    height: 28px;
+    vertical-align: top;
+  }
+</style> -->
+<!-- <div class="jumbotron">
+  <div class="container text-center">
+    <p><img src="http://code-maven.com/img/angularjs.png" /></p>
+    <h1>Form <a href="https://github.com/formio/ngFormBuilder" target="_blank">Builder</a> & <a href="https://github.com/formio/ngFormio" target="_blank">Renderer</a></h1>
+    <p><strong>Open Source</strong> by <a target="_blank" href="https://form.io"><img src="https://help.form.io/assets/formio-logo.png" /></a></p>
+  </div>
+</div>
+<div class="page-content" ng-app="formioApp">
+  <div class="container-fluid">
+    <div>
+      <div class="row">
+        <div class="col-sm-8">
+          <h3 class="text-center text-muted">The <a href="https://github.com/formio/ngFormBuilder" target="_blank">Form Builder</a> allows you to build a <select class="form-control form-type-select" ng-model="form.display" ng-options="display.name as display.title for display in displays"></select></h3>
+          <pre class="text-center bg-info"><h4><code>&lt;form-builder form="form"&gt;&lt;/form-builder&gt;</code></h4></pre>
+          <div class="well" style="background-color: #fdfdfd;">
+            <form-builder form="form"></form-builder>
+          </div>
+        </div>
+         </div>
+       <div class="row" style="margin-top: 40px;">
+        <div class="col-sm-12 text-center">
+          <a href="https://index.html" target="_blank" class="btn btn-lg btn-success">Get Started</a>
+        </div>
+      </div> -->
+      
+
+</script>
+</body>
+</html>
